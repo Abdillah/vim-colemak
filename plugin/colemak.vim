@@ -16,15 +16,15 @@
     nnoremap i l|xnoremap i l|onoremap i l|
 " }}}
 " Words forward/backward {{{
-    " l/L = back word/WORD
+    " H/<C-H> = back word/WORD
     " u/U = end of word/WORD
-    " y/Y = forward word/WORD
-    nnoremap l b|xnoremap l b|onoremap l b|
-    nnoremap L B|xnoremap L B|onoremap L B|
+    " I/<C-I> = forward word/WORD
+    nnoremap H b|xnoremap H b|onoremap H b|vnoremap H b|
+    nnoremap <C-H> B|xnoremap <C-H> B|onoremap <C-H> B|vnoremap <C-H> B|
     nnoremap u e|xnoremap u e|onoremap u e|
     nnoremap U E|xnoremap U E|onoremap U E|
-    nnoremap y w|xnoremap y w|onoremap y w|
-    nnoremap Y W|xnoremap Y W|onoremap Y W|
+    nnoremap I w|xnoremap I w|onoremap I w|vnoremap I w|
+    nnoremap <C-I> W|xnoremap <C-I> W|onoremap <C-I> W|vnoremap <C-I> W|
     cnoremap <C-L> <C-Left>
     cnoremap <C-Y> <C-Right>
 " }}}
