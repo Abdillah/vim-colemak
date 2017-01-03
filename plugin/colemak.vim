@@ -28,6 +28,9 @@
     cnoremap <C-L> <C-Left>
     cnoremap <C-Y> <C-Right>
 " }}}
+" Line navigation {{{
+    " Use :<lineno>
+" }}}
 " inSert/Replace/append (T) {{{
     nnoremap s i|
     nnoremap S I|
